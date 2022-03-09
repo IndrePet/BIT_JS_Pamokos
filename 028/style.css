@@ -4,3 +4,11 @@
   align-items: center;
   flex-wrap: wrap;
 }
+
+img.big {
+  width: 200px;
+}
+
+img.small {
+  width: 100px;
+}
