@@ -1,0 +1,58 @@
+/* Visi buttonai */
+
+button {
+  background: pink;
+  color: black;
+  border: 2px solid aquamarine;
+}
+
+button:hover {
+  outline: 2px solid aqua;
+}
+
+button:active {
+  background: rgb(161, 56, 74);
+}
+
+/* kiti elementai*/
+
+.parent {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  position: relative;
+  background-color: aquamarine;
+}
+.child {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 500px;
+  left: 500px;
+  background-color: rgb(61, 114, 96);
+}
+div {
+  display: grid;
+  place-content: center;
+}
+
+div:hover {
+  cursor: pointer;
+  background-color: bisque;
+}
+
+a {
+  color: rgb(121, 100, 160);
+  font-size: 3rem;
+}
+
+.red-square {
+  width: 400px;
+  height: 400px;
+  background-color: red;
+}
+
+li:hover {
+  cursor: pointer;
+}

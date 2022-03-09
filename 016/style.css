@@ -1,0 +1,25 @@
+[name="mumu"] {
+    transition: all .5s;
+}
+
+.field {
+    height: 500px;
+    width: 500px;
+    border: 5px solid black;
+    position: relative;
+    background: lightblue;
+}
+
+.ball {
+    border-radius: 50%;
+    background: yellow;
+    height: 50px;
+    aspect-ratio: 1;
+    position: absolute;
+    top: 250px;
+    left: 0;
+    transition: all 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
